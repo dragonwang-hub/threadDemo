@@ -1,5 +1,5 @@
 package demo.thread.bank;
 
-public enum OutMode {
+public enum OutModeEnum {
     ATM, COUNTER;
 }

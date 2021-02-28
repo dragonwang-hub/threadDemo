@@ -4,10 +4,10 @@ public class Account extends Thread {
 
     Bank bank;
     String name;
-    OutMode mode;
+    OutModeEnum mode;
     double amount;
 
-    public Account(Bank bank, OutMode mode, double amount, String name) {
+    public Account(Bank bank, OutModeEnum mode, double amount, String name) {
         this.bank = bank;
         this.mode = mode;
         this.amount = amount;
