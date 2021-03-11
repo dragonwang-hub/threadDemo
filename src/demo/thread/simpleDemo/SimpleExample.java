@@ -49,13 +49,13 @@ public class SimpleExample implements Runnable {
     @Override
     public void run() {
         // 只打开methodOne，两线程不会竞争锁
-        methodOne();
+//        methodOne();
 
         // 只打开methodTwo，两线程会竞争锁
-        methodTwo();
+//        methodTwo();
 
         // 只打开methodThree，两线程不会竞争锁
-        methodThree();
+//        methodThree();
 
         // 只打开methodFour，，两线程会竞争锁
         methodFour();
